@@ -7,8 +7,7 @@ from bs4 import BeautifulSoup as bs
 # private profiles. 
 
 
-directory = "/Users/Eveleens/Documents/03_Werk/11_UU/Studie2/Data/Profile_full/"
-#"/Users/Eveleens/Documents/03_Werk/11_UU/Studie2/Data/Profile_full/"
+directory = "/Profile_full/" #set directory where the html files are
 # Functions
 
 def find_and_copy(body, begin, end, position):
@@ -169,7 +168,7 @@ print ('time: ',t,' sec')
 # Write to file
 folder = "htmldata"
 file_name = "data_private_profiles"
-directory1 = '/Users/Eveleens/Desktop/' + folder
+directory1 = '/Desktop/' + folder
 if not os.path.exists(directory1):
 	os.makedirs(directory1)
 file_path = directory1 + '/' + file_name + '.csv'
