@@ -8,7 +8,7 @@ import os, csv, sys
 # The directory should have the format of folders with names of dates and inside the connectionslists with a 
 # name memberid_connections.csv
 
-directory = '/Users/Eveleens/Documents/03_Werk/11_UU/Studie2/Data/Connectionlistsdownloads/'
+directory = '/Connectionlistsdownloads/' # set correct folder
 today = input("what is the date? (YYYMMDD): ")
 savedirectory = '/Users/Eveleens/Desktop/'
 
